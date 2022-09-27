@@ -2,23 +2,19 @@ body {
     font-family: Arial, sans-serif;
     background-image: url(/Images/fon1.jpg);
   }
-  
   .fab {
     position: fixed;
     width: 56px;
     margin-top: 589px;
     margin-left: 783px;
   }
-  
   .fab:hover .fab-buttons {
     opacity: 1;
     visibility: visible;
   }
-  
   .fab:hover .fab-buttons__link {
     transform: scaleY(1) scaleX(1) translateY(-16px) translateX(0px);
   }
-  
   .fab-action-button:hover + .fab-buttons .fab-buttons__link:before {
     visibility: visible;
     opacity: 1;
@@ -26,7 +22,6 @@ body {
     transform-origin: right center 0;
     transition-delay: 0.3s;
   }
-  
   .fab-action-button {
     position: absolute;
     bottom: 0;
@@ -37,7 +32,6 @@ body {
     border-radius: 50%;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
   }
-  
   .fab-buttons {
     position: absolute;
     left: 0;
@@ -50,19 +44,16 @@ body {
     visibility: hidden;
     transition: 0.2s;
   }
-  
   .fab-action-button__icon {
     display: inline-block;
     width: 56px;
     height: 56px;
   }
-  
   .fab-buttons__item {
     display: block;
     text-align: center;
     margin: 12px 0;
   }
-  
   .fab-buttons__link {
     display: inline-block;
     width: 50px;
@@ -77,7 +68,6 @@ body {
     -o-transition: .3s;
     transition: .3s;
   }
-  
   [data-tooltip]:before {
     top: 50%;
     margin-top: -11px;
@@ -99,32 +89,26 @@ body {
     transform-origin: top right;
     transition: all .3s cubic-bezier(.25, .8, .25, 1);
   }
-  
   [data-tooltip]:hover:before {
     visibility: visible;
     opacity: 1;
     transform: scale(1);
     transform-origin: right center 0;
   }
-  
   .icon-material {
     display: inline-block;
     width: 40px;
     height: 40px;
   }
-  
   .icon-material_fb {
     background: url("/Images/Group\ 1.jpg") center no-repeat;
   }
-  
   .icon-material_gp {
     background: url("/Images/Vector\ 2.jpg") center no-repeat;
   }
-  
   .icon-material_tw {
     background: url("/Images/Vector\ 1.png") center no-repeat;
   }
-  
   .icon-material_li {
     background: url("/Images/Vector\ 3.jpg") center no-repeat;
   }
